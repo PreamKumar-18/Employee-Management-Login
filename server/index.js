@@ -27,7 +27,7 @@ app.use("/leave", LeaveRouter);
 
 
 const mongoUrl =
-  "mongodb+srv://PreamKumar:Preamkumar18@cluster0.3zeg2wx.mongodb.net/?retryWrites=true&w=majority";
+  "";
 
 mongoose
   .connect(mongoUrl, {
